@@ -66,7 +66,7 @@ body {
 .inicio {
     position: relative; /* necessário para o ::after funcionar corretamente */
     min-height: 100vh;
-    background: url('imagens/background.jpg') no-repeat;
+    background: url('/imagens/background.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     transition: .7s ease;
@@ -612,3 +612,4 @@ transition: filter 0.4s ease;
 
 .botao-reiniciar:hover { transform: translateY(-2px); }
 .botao-voltar:hover { transform: translateY(-2px); background: #ffffff1f; }
+
