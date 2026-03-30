@@ -1,43 +1,77 @@
-# Documentação do projeto acadêmico — Quiz
+# Quiz Interativo - Projeto Acadêmico
+
+Projeto desenvolvido para a disciplina de **Programação Web Coding**, com o objetivo de criar um quiz interativo sobre uma empresa, utilizando apenas tecnologias front-end nativas: **HTML**, **CSS** e **JavaScript**.
 
 ---
 
-## Como executar o projeto
+## Sobre o projeto
 
-1. Baixe o arquivo `.zip` enviado.
-2. Extraia o conteúdo em uma pasta local.
-3. Abra o arquivo `index.html` diretamente (duplo clique).
-4. O quiz abrirá automaticamente no navegador.
+O quiz apresenta perguntas de múltipla escolha com as seguintes funcionalidades:
 
----
+- **Timer por questão** - o jogador tem um tempo limitado para responder
+- **Fundo dinâmico** - o background alterna a cada questão, tornando a experiência mais visual
+- **Menu de navegação** - tela inicial antes de iniciar o quiz
+- **Pontuação ao final** - exibe o resultado ao término das perguntas
 
-## Navegadores utilizados para teste
-
-| Navegador      | Status              |
-|----------------|---------------------|
-| Google Chrome  | Testado           |
-| Microsoft Edge | Funcionamento esperado |
-| Firefox        | Funcionamento esperado |
+> Projeto simples e de escopo acadêmico, sem dependências externas ou frameworks.
 
 ---
 
-## Estrutura do projeto
+## Como executar
+
+1. Baixe e extraia o arquivo `.zip` do projeto
+2. Abra a pasta extraída
+3. Dê duplo clique no arquivo `index.html`
+4. O quiz abrirá automaticamente no navegador padrão
+
+> Não é necessário servidor local, compilação ou instalação de dependências.
+
+---
+
+## Compatibilidade
+
+| Navegador       | Status                    |
+|-----------------|---------------------------|
+| Google Chrome   | Testado                   |
+| Microsoft Edge  | Funcionamento esperado    |
+| Firefox         | Funcionamento esperado    |
+
+---
+
+## Estrutura de arquivos
 
 ```
 projeto/
-├── index.html      → Página principal do quiz
-├── style.css       → Estilos do layout
-├── script.js       → Lógica do quiz
-└── perguntas.js    → Perguntas, timer, background, etc.
+├── index.html      → Página principal e estrutura do quiz
+├── style.css       → Estilos, layout e fundos dinâmicos
+├── script.js       → Lógica de navegação, pontuação e timer
+└── perguntas.js    → Banco de perguntas, configurações de timer e backgrounds
 ```
 
 ---
 
-## O que foi reaproveitado e modificado
+## Funcionalidades técnicas
 
-- **Timer** — reaproveitado e ajustado.
-- **Estilo de perguntas** — reaproveitado e modificado.
-- **Menu** — adicionado para tornar o projeto mais dinâmico.
-  - Parte da estrutura foi baseada no canal **CodeHal**, com modificações extensas.
+| Recurso          | Descrição                                                        |
+|------------------|------------------------------------------------------------------|
+| Timer            | Contagem regressiva por questão; encerra automaticamente ao expirar |
+| Fundo alternado  | Cada questão exibe um background diferente via troca de classe CSS |
+| Menu inicial     | Tela de entrada antes do início do quiz                         |
+| Feedback visual  | Indicação de resposta correta/incorreta após cada questão       |
 
 ---
+
+## Créditos e reaproveitamento de código
+
+Partes do projeto foram baseadas ou adaptadas de fontes externas:
+
+- **Timer** - lógica reaproveitada e ajustada para o contexto do projeto
+- **Estilo das perguntas** - estrutura reaproveitada com modificações visuais
+- **Menu inicial** - estrutura parcialmente inspirada no canal [CodeHal](https://www.youtube.com/@CodeHal), com alterações extensas para adequação ao projeto
+
+---
+
+## Contexto acadêmico
+
+Este projeto foi desenvolvido como trabalho avaliativo da disciplina de **Programação Web Coding**. O escopo foi intencionalmente simples, priorizando a aplicação prática de HTML, CSS e JavaScript puros, sem uso de frameworks ou bibliotecas externas.
+```
