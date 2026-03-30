@@ -2,7 +2,7 @@
 
 ---
 
-## Como Executar o Projeto
+## Como executar o projeto
 
 1. Baixe o arquivo `.zip` enviado.
 2. Extraia o conteúdo em uma pasta local.
@@ -11,7 +11,7 @@
 
 ---
 
-## Navegadores Utilizados para Teste
+## Navegadores utilizados para teste
 
 | Navegador      | Status              |
 |----------------|---------------------|
@@ -21,7 +21,7 @@
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```
 projeto/
@@ -33,7 +33,7 @@ projeto/
 
 ---
 
-## O que foi Reaproveitado e Modificado
+## O que foi reaproveitado e modificado
 
 - **Timer** — reaproveitado e ajustado.
 - **Estilo de perguntas** — reaproveitado e modificado.
