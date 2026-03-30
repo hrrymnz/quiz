@@ -1,4 +1,4 @@
-# Documentação do Projeto — Quiz
+# Documentação do projeto acadêmico — Quiz
 
 ---
 
